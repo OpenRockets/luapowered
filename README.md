@@ -10,18 +10,22 @@ Welcome to **LuaPowered**, a comprehensive learning resource for Lua programming
 - **Best Practices**: Clean code, debugging, and performance optimization
 - **Real-world Applications**: GPIO control, sensor reading, motor control, and more
 
-## 📚 Quick Start
+## 🚀 Quick Start
+
+**Want to jump right in?** → **[QUICKSTART GUIDE](QUICKSTART.md)** ← 5-minute setup!
 
 1. **New to Lua?** Start with our [Beginner's Guide](guide/basics/README.md)
 2. **Want to control hardware?** Jump to [Hardware Programming](guide/hardware/README.md)
 3. **Learn by doing?** Check out our [Demo Projects](guide/projects/README.md)
-4. **Need setup help?** See our [Installation Guide](guide/setup/README.md)
+4. **Try a working example** → Run `lua5.4 demos/smart_led_controller.lua`
+5. **Need setup help?** See our [Installation Guide](guide/setup/installation.md)
 
 ## 📁 Repository Structure
 
 ```
 luapowered/
 ├── README.md                    # This file - your starting point
+├── QUICKSTART.md               # 5-minute setup guide  
 ├── guide/                       # Complete learning guide
 │   ├── basics/                  # Lua fundamentals
 │   ├── hardware/               # Hardware programming
@@ -30,6 +34,8 @@ luapowered/
 │   │   └── intermediate/       # More complex applications
 │   ├── setup/                  # Installation and environment setup
 │   └── references/             # Resources, links, and references
+├── demos/                      # Working demo projects
+│   └── smart_led_controller.lua # Try this first!
 └── LICENSE                     # CC0 - Public Domain
 ```
 
